@@ -1,58 +1,73 @@
 /* Navbar Container */
-.custom-navbar{
-    background-color: #0D1B2A;
-    padding: 0.8rem 1.5rem;
+.custom-navbar {
+  background-color: #0D1B2A;
+  padding: 0.8rem 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  width: 100%;
 }
 
 /* Logo */
-.navbar-logo{
-    color: #14B8A6;
-    font-weight: 700;
-    font-size: 1.25rem;
+.navbar-logo {
+  color: #14B8A6;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
-.navbar-logo:hover{
-    color: #FF6B6B;
-    text-decoration: none;
+
+.navbar-logo:hover {
+  color: #FF6B6B;
+  text-decoration: none;
 }
 
 /* Menu Links */
-.nav-link-custom{
-    color: #E0E1DD;
-    margin: 0 0.5rem;
+.nav-link-custom {
+  color: #E0E1DD;
+  margin: 0 0.5rem;
 }
-.nav-link-custom:hover{
-    color: #14B8A6
+
+.nav-link-custom:hover {
+  color: #14B8A6
 }
 
 /* Search Container */
-.nav-search-container{
-    position: relative;
-    display: flex;
-    align-items: center;
+.nav-search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
-.search-icon{
-    position: absolute;
-    left: 12px;
-    color: #A9B1B8;
-    font-size: 14px;
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  color: #A9B1B8;
+  font-size: 14px;
 }
 
 /* Search input */
-.nav-search{
-    background-color: #1B263B; /* Card background */
-    border: 1px solid #334E68; /* subtle border */
-    border-radius: 20px;
-    padding: 0.45rem 0.8rem 0.45rem 2rem; /* chừa chỗ cho icon */
-    color: #E0E1DD;
-    font-size: 0.9rem;
-    transition: border 0.2s ease, background 0.2s ease;
+.nav-search {
+  background-color: #1B263B;
+  /* Card background */
+  border: 1px solid #334E68;
+  /* subtle border */
+  border-radius: 20px;
+  padding: 0.45rem 0.8rem 0.45rem 2rem;
+  /* chừa chỗ cho icon */
+  color: #E0E1DD;
+  font-size: 0.9rem;
+  transition: border 0.2s ease, background 0.2s ease;
 }
+
 .nav-search::placeholder {
   color: #A9B1B8;
 }
+
 .nav-search:focus {
   outline: none;
-  border: 1px solid #14B8A6; /* Teal highlight */
+  border: 1px solid #14B8A6;
+  /* Teal highlight */
   background-color: #243B55;
 }
 
@@ -82,6 +97,7 @@
   background-color: #14B8A6;
   color: #0D1B2A;
 }
+
 .dropdown-toggle::after {
-  display: none !important; 
+  display: none !important;
 }

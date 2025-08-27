@@ -4,7 +4,7 @@ import '../assets/css/navbar.css'
 const NavBar = () => {
     return (
         <Navbar expand="lg" className='custom-navbar'>
-            <Container>
+            <Container fluid>
                 {/* Logo */}
                 <Navbar.Brand href='/' className='navbar-logo'>
                     🎵 TuneSpace
