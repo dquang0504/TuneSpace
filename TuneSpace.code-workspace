@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "TuneSpace",
+			"path": "."
+		},
+		{
+			"name": "TuneSpace-BE",
+			"path": "../TuneSpace-BE"
+		}
+	],
+	"settings": {}
+}
